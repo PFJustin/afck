@@ -1,4 +1,5 @@
 # guide
+https://forum.atvxperience.com/viewtopic.php?t=1776
 [preparation]
 Install git:
 sudo apt update
