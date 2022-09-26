@@ -1,3 +1,66 @@
+# guide
+[preparation]
+Install git:
+sudo apt update
+sudo apt install git
+
+[clone afck-Project]
+git clone https://github.com/anpaza/afck.git
+
+[Install dependencies]
+sudo apt install android-tools-fsutils
+sudo apt install device-tree-compiler
+
+[Download bc-tool-update-pie-q-02b]
+```
+update *-02b
+- Android 10-Q support (experimental)
+- added cleanup menu
+- added mod-inspection
+- added encrypted IMG support
+- fixed negative partition size
+- other bug fixes
+- automatic detection of incompatibility sepolicy
+(This function is indispensable when working with faulty custom ROMs, or combine/port two different ROMs)
+```
+Extract bc-tool to afck:
+tar xvJf bc-tool-update-pie-q-02b.tar.xz -C ~/afck
+
+[Download Ingredients]
+cd ~/afck/ingredients
+./01-get-it-all
+cd..
+
+[How to use]
+(Read bc-tool/readme.md file for more information)
+- List of available mods
+make mod-help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Система Сборки Android Прошивок
 *(Android Firmware Construction Kit)*
 
